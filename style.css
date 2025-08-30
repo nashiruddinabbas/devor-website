@@ -1,0 +1,237 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  h2 {
+    margin: 20px 0;
+  }
+  
+  /* Hero Section */
+  header {
+    background: #0033cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .hero-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .hero-img{
+    width: 47%;
+    
+  }
+  .hero-text{
+    max-width: 47% ;
+    padding-top: 40px;
+    
+  }
+  .hero-im{
+    width: 100%;
+  }
+
+  .header {
+    background: #2d5ff8;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .logo {
+    height: 50px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .hero h1 {
+    margin-top: 2rem;
+  }
+
+  
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Navbar
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+  }
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  .navbar ul li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .navbar ul li a.active,
+  .navbar ul li a:hover {
+    color: #ff6b6b;
+  }
+   */
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    
+  }
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Services Section */
+  .services-section {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+   
+  }
+  .services-container {
+    /* display: flex; */
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .service {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 40px);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .service:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .projects-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+  }
+  project {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+  }
+  .project1 {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .project2 {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .section-text {
+    max-width: 47%;
+  }
+  .section-img {
+    max-width: 47%%;
+    
+  }
+
+  .section-im{
+    width: 100%;
+  }
+  
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .contact-section form {
+    max-width: 600px;
+    margin: auto;
+  }
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  .contact-section button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #001a33;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
